@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Classes - Blog</title>
+
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .heroBox {
+            border: 3px solid aqua;
+            padding: 5rem;    
+        }
+
+        .monsterBox {
+            border: 3px solid red;
+            padding: 5rem;
+            margin-left: 1rem;
+        }    
+    </style>
+
+</head>
+<body>
+    <h1>Awesome Hero Vs Monster Game</h1>
+    <h5>Prepare to be amazed...</h5>
+    
+    <hr>
+    <h3 id="winner"></h3>
+    <div class="container">
+        <div class="heroBox">
+            <h1>Hero: <span id="heroName"></span></h1>
+            <h2>Life: <span id="heroLife"></span></h2>
+            <button id="heroAttack">Attack</button>      
+            <button id="heroHeal">Heal</button>
+        </div>
+
+        <div class="monsterBox">
+            <h1>Monster: <span id="monsterName"></span></h1>
+            <h2>Life: <span id="monsterLife"></span></h2>
+            <button id="monsterAttack">Attack</button>
+
+        </div>
+    </div>
+    <script src="blogGame.js"></script>
+</body>
+</html>
